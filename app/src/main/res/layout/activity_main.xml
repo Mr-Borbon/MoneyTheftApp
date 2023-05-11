@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 'Who Took My Money' text input field -->
+    <TextView
+        android:id="@+id/label_who"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who Took My Money"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/input_who"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/label_who"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_text_background"/>
+
+
+    <!-- 'How Much Did They Take' text input field -->
+    <TextView
+        android:id="@+id/label_how_much"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How Much Money They Took"
+        android:textSize="20sp"
+        android:layout_below="@id/input_who"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/input_how_much"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/label_how_much"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <!-- 'How they took my money' text input field -->
+    <TextView
+        android:id="@+id/label_how"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How They Took My Money"
+        android:textSize="20sp"
+        android:layout_below="@id/input_how_much"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/input_how"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/label_how"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <!-- 'Submit' button -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/input_how"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/teal_200" />
+</RelativeLayout>
+

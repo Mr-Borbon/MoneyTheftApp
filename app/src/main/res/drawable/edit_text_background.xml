@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edit_text_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Underline -->
+    <item android:drawable="@drawable/edit_text_underline" />
+    <!-- Background color -->
+    <item android:drawable="@color/edit_text_color_selector" />
+</layer-list>
